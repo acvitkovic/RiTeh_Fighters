@@ -10,7 +10,7 @@ public class ChangeAlpha : MonoBehaviour
         // Get the image component attached to the same game object as this script
         image = GetComponent<Image>();
 
-        // Set the image's color with half alpha
+        // Adjust the alpha
         Color color = image.color;
         color.a = 0.3f;
         image.color = color;
@@ -20,6 +20,7 @@ public class ChangeAlpha : MonoBehaviour
     {
         image = GetComponent<Image>();
 
+        //Maxes out the alpha
         Color color = image.color;
         color.a = 1f;
         image.color = color;
