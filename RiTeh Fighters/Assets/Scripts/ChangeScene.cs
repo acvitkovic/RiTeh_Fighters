@@ -18,6 +18,8 @@ public class ChangeScene : MonoBehaviour
 
     public void GotoGameplay()
     {
+        GameObject[] tmpMusic = GameObject.FindGameObjectsWithTag("PreviousSceneMusic");
+        Destroy(tmpMusic[0]);
         SceneManager.LoadScene("GameplayScene");
     }
 }
