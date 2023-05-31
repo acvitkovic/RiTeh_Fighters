@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public void GoToMainMenu()
-    {
+    public void GoToMainMenu() {
         SceneManager.LoadScene("GameMenu");
     }
     public void GoToArena() {
@@ -15,5 +14,10 @@ public class ChangeScene : MonoBehaviour
 
     public void GoToCharacterSelect() {
         SceneManager.LoadScene("CharacterSelect");
+    }
+
+    public void GotoGameplay()
+    {
+        SceneManager.LoadScene("GameplayScene");
     }
 }

@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 542458312}
   - component: {fileID: 542458313}
   - component: {fileID: 542458314}
+  - component: {fileID: 542458315}
   m_Layer: 5
   m_Name: Arena_Container_3
   m_TagString: Untagged
@@ -750,6 +751,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 542458315}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &542458314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,6 +775,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &542458315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542458306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &599816272
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +937,7 @@ GameObject:
   - component: {fileID: 638153904}
   - component: {fileID: 638153905}
   - component: {fileID: 638153906}
+  - component: {fileID: 638153907}
   m_Layer: 5
   m_Name: Arena_Container_2
   m_TagString: Untagged
@@ -1254,6 +1281,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 638153907}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &638153906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1266,6 +1305,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &638153907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638153898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &724330422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,6 +1332,7 @@ GameObject:
   - component: {fileID: 724330428}
   - component: {fileID: 724330429}
   - component: {fileID: 724330430}
+  - component: {fileID: 724330431}
   m_Layer: 5
   m_Name: Arena_Container_6
   m_TagString: Untagged
@@ -1623,6 +1676,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 724330431}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &724330430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1635,6 +1700,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &724330431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724330422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &783278062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,6 +2608,7 @@ GameObject:
   - component: {fileID: 1137137164}
   - component: {fileID: 1137137165}
   - component: {fileID: 1137137166}
+  - component: {fileID: 1137137167}
   m_Layer: 5
   m_Name: Arena_Container_1
   m_TagString: Untagged
@@ -2873,6 +2952,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1137137167}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: '"Arena_Container_1"'
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1137137166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2885,6 +2976,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1137137167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137137158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &1255024072
 GameObject:
   m_ObjectHideFlags: 0
@@ -3888,6 +3992,7 @@ GameObject:
   - component: {fileID: 1686343330}
   - component: {fileID: 1686343331}
   - component: {fileID: 1686343332}
+  - component: {fileID: 1686343333}
   m_Layer: 5
   m_Name: Arena_Container_5
   m_TagString: Untagged
@@ -4231,6 +4336,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1686343333}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1686343332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4243,6 +4360,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1686343333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686343324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &1863966376
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,6 +4522,7 @@ GameObject:
   - component: {fileID: 2021144210}
   - component: {fileID: 2021144211}
   - component: {fileID: 2021144212}
+  - component: {fileID: 2021144213}
   m_Layer: 5
   m_Name: Arena_Container_4
   m_TagString: Untagged
@@ -4735,6 +4866,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2021144213}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+        m_MethodName: SelectArena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2021144212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4747,6 +4890,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ed8bab561b8c648a4cd0fba16e40e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2021144213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021144204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074301a11a042946836a456819485b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedArena: 0
 --- !u!1 &2111442710
 GameObject:
   m_ObjectHideFlags: 0

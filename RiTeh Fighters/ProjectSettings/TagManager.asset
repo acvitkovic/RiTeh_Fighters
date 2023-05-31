@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - P2_Character
+  - P1_Character
+  - ConfirmBtn
   layers:
   - Default
   - TransparentFX
