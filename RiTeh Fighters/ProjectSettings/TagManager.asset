@@ -9,6 +9,8 @@ TagManager:
   - ConfirmBtn
   - PreviousSceneMusic
   - Resolution
+  - CancelBtn
+  - CancelBtn2
   layers:
   - Default
   - TransparentFX
