@@ -7,6 +7,8 @@ public class ChangeScene : MonoBehaviour
 {
     public void GoToMainMenu() {
         SceneManager.LoadScene("GameMenu");
+        GameObject[] tmpMusic = GameObject.FindGameObjectsWithTag("PreviousSceneMusic");
+        Destroy(tmpMusic[0]);
     }
     public void GoToArena() {
         SceneManager.LoadScene("ArenaSelect");
