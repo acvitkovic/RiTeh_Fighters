@@ -328,7 +328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6990555a746803040b8d450d86c82305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac56e8c7f6b8315489c28d895d12a81f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6990555a746803040b8d450d86c82305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4814c106c4a6864091fbd213c1333b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6990555a746803040b8d450d86c82305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfca98b41e7419e4d8eac8b29c2ff44e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1620,7 +1620,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 4080697336602777846, guid: 80aca90ca371e1b409c568578999c68f, type: 3}
+  m_PlayerPrefab: {fileID: 4080697336602777846, guid: 3f1a0ce475937db4fba87bbab7eae903, type: 3}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
