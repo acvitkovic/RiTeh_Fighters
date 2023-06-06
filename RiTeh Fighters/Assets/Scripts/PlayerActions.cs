@@ -5,31 +5,49 @@ using UnityEngine.InputSystem;
 
 public class PlayerActions : MonoBehaviour
 {
+    [SerializeField]
+    public float playerSpeed;
+    public float jumpPower;
+    private float playerDir = 0.0f;
 
-    private float playerSpeed = 5.0f;
-    private float jumpPower = 5.0f;
+    private float jumpTime;
+    private bool jumpingStatus;
 
-    private Rigidbody2D p1_body;
-    private Rigidbody2D p2_body;
+    private Rigidbody2D playerBody;
 
-    private 
+    private Animator animator;
 
-    void Update()
+    private void Awake()
     {
-        
-        if (Gamepad.all[0].leftStick.IsActuated()) {
+        animator = GetComponentInChildren<Animator>();
+        playerBody = GetComponent<Rigidbody2D>();
 
-            var horizontalInput = Gamepad.all[0].leftStick.ReadValue();
-            p1_body = GameObject.Find("Player_Character_1").GetComponent<Rigidbody2D>();
-
-            p1_body.velocity = new Vector2(horizontalInput.x * playerSpeed, p1_body.velocity.y);
-        }
-
-
-        if (Gamepad.all[0].crossButton.IsActuated())
+        if (playerBody is null)
         {
-            p1_body.velocity = new Vector2(p1_body.velocity.x, jumpPower);
+            Debug.LogError("Body is NULL");
         }
 
     }
+
+    private void FixedUpdate()
+    {
+        playerBody.velocity = new Vector2(playerDir * playerSpeed, playerBody.velocity.y);
+    }
+
+    private void Update()
+    {
+        if (playerBody.velocity.x > -0.01f && playerBody.velocity.x < 0.01f) animator.SetBool("isWalking", false);
+    }
+
+    void OnJump()
+    {
+        if (playerBody.velocity.y > -0.01f && playerBody.velocity.y < 0.01f) playerBody.velocity = Vector2.up * jumpPower;
+    }
+
+    void OnMove(InputValue inputValue)
+    {
+        animator.SetBool("isWalking", true);
+        playerDir = inputValue.Get<float>();
+    }
+   
 }
